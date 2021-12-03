@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if false
+
+using System;
 using System.IO;
 
 var rapportRaw = File.ReadAllLines("Day1/input_day1.txt");
@@ -34,3 +36,5 @@ for (var i = 0; i < rapport.Length; i++)
 }
 
 Console.WriteLine(increments);
+
+#endif
